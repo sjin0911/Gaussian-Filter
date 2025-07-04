@@ -18,6 +18,9 @@ def main():
     cv2.waitKey(0)
     cv2.destroyAllWindows()
 
+def GuidedFilter():
+    pass
+
 
 def GaussianFilter(image: np.ndarray, r, sigma) -> np.ndarray:
     # make kernel
